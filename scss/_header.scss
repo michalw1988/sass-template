@@ -9,7 +9,7 @@ header {
 		justify-content: space-between;
 		h1 {
 			color: white;
-			font-size: 36px;
+			font-size: 2.5rem;
 			span {
 				color: $primaryColor;
 			}
@@ -17,7 +17,7 @@ header {
 		#menuIcon {
 			display: none;
 			color: $lightColor;
-			font-size: 25px;
+			font-size: 1.7rem;
 		}
 		#menuIcon:hover {
 			color: $lightColorDarker;
@@ -25,7 +25,7 @@ header {
 		}
 		nav {
 			li {
-				font-size: 20px;
+				font-size: 1.3rem;
 				display: inline-block;
 				padding: 10px;
 				a {

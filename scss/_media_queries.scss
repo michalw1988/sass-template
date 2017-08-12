@@ -18,13 +18,14 @@
 @media(max-width: 768px) {
 	.container {
 		width: 100%;
+		font-size: 0.9rem;
 	}
 
 	header .container {
 		display: block;
 		h1 {
 			display: inline-block;
-			font-size: 25px;
+			font-size: 1.7rem;
 		}
 		#menuIcon {
 			display: inline-block;
@@ -50,13 +51,16 @@
 		h2 {
 			padding-top: 100px;
 			padding-bottom: 10px;
-			font-size: 30px;
+			font-size: 1.7rem;
 		}
 	}
 
 	section#newsletter {
 		box-sizing: border-box;
 		padding: 20px;
+		h2 {
+			font-size: 1.5rem;
+		}
 		.inputsContainer {
 			display: block;
 			input {

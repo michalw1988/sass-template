@@ -1,3 +1,5 @@
+/* colors */
+/* font */
 /* line 1, ../scss/_reset.scss */
 * {
   margin: 0;
@@ -30,7 +32,7 @@ header .container {
 /* line 10, ../scss/_header.scss */
 header .container h1 {
   color: white;
-  font-size: 36px;
+  font-size: 2.5rem;
 }
 /* line 13, ../scss/_header.scss */
 header .container h1 span {
@@ -40,7 +42,7 @@ header .container h1 span {
 header .container #menuIcon {
   display: none;
   color: white;
-  font-size: 25px;
+  font-size: 1.7rem;
 }
 /* line 22, ../scss/_header.scss */
 header .container #menuIcon:hover {
@@ -49,7 +51,7 @@ header .container #menuIcon:hover {
 }
 /* line 27, ../scss/_header.scss */
 header .container nav li {
-  font-size: 20px;
+  font-size: 1.3rem;
   display: inline-block;
   padding: 10px;
 }
@@ -73,15 +75,16 @@ header .container nav li a:hover i {
 /* line 1, ../scss/_content.scss */
 body {
   font-family: Arial;
+  font-size: 16px;
 }
 
-/* line 5, ../scss/_content.scss */
+/* line 6, ../scss/_content.scss */
 .container {
   width: 80%;
   margin: auto;
 }
 
-/* line 10, ../scss/_content.scss */
+/* line 11, ../scss/_content.scss */
 section#picture {
   padding-top: 100px;
   background: url(../img/picture.jpg) no-repeat 0 -200px;
@@ -89,71 +92,71 @@ section#picture {
   text-align: center;
   color: white;
 }
-/* line 16, ../scss/_content.scss */
+/* line 17, ../scss/_content.scss */
 section#picture h2 {
   padding-top: 100px;
   padding-bottom: 20px;
-  font-size: 50px;
+  font-size: 3.2rem;
 }
-/* line 21, ../scss/_content.scss */
+/* line 22, ../scss/_content.scss */
 section#picture h3 {
-  font-size: 20px;
+  font-size: 1.3rem;
   color: #d9d9d9;
 }
 
-/* line 27, ../scss/_content.scss */
+/* line 28, ../scss/_content.scss */
 section#newsletter {
   background: #171717;
   color: white;
   padding: 15px 0;
 }
-/* line 31, ../scss/_content.scss */
+/* line 32, ../scss/_content.scss */
 section#newsletter h2 {
-  font-size: 30px;
+  font-size: 1.8rem;
   text-align: center;
   margin-bottom: 15px;
 }
-/* line 36, ../scss/_content.scss */
+/* line 37, ../scss/_content.scss */
 section#newsletter .inputsContainer {
   display: flex;
 }
-/* line 38, ../scss/_content.scss */
+/* line 39, ../scss/_content.scss */
 section#newsletter .inputsContainer input {
   flex: 5;
   border: 0;
   height: 32px;
-  font-size: 16px;
+  font-size: 1rem;
 }
-/* line 44, ../scss/_content.scss */
+/* line 45, ../scss/_content.scss */
 section#newsletter .inputsContainer button {
   flex: 1;
   border: 0;
   height: 32px;
-  font-size: 16px;
+  font-size: 1rem;
   background: #db1d00;
   color: white;
   margin-left: 20px;
 }
-/* line 53, ../scss/_content.scss */
+/* line 54, ../scss/_content.scss */
 section#newsletter .inputsContainer button:hover {
   background: #ff2f0f;
   cursor: pointer;
 }
 
-/* line 61, ../scss/_content.scss */
+/* line 62, ../scss/_content.scss */
 section#offer h2 {
-  font-size: 30px;
+  font-size: 1.8rem;
   background: #db1d00;
   color: white;
   text-align: center;
   padding: 20px;
   margin-top: 20px;
 }
-/* line 69, ../scss/_content.scss */
+/* line 70, ../scss/_content.scss */
 section#offer #imageBoxes {
   display: flex;
 }
-/* line 71, ../scss/_content.scss */
+/* line 72, ../scss/_content.scss */
 section#offer #imageBoxes .imageBox {
   flex: 1;
   background: #d9d9d9;
@@ -161,62 +164,62 @@ section#offer #imageBoxes .imageBox {
   padding: 20px;
   text-align: center;
 }
-/* line 77, ../scss/_content.scss */
+/* line 78, ../scss/_content.scss */
 section#offer #imageBoxes .imageBox img {
   width: 40%;
   margin-bottom: 15px;
 }
-/* line 81, ../scss/_content.scss */
+/* line 82, ../scss/_content.scss */
 section#offer #imageBoxes .imageBox h3 {
-  font-size: 16px;
+  font-size: 1rem;
   margin-bottom: 10px;
 }
-/* line 87, ../scss/_content.scss */
+/* line 88, ../scss/_content.scss */
 section#offer .offerBox {
   margin: 20px 0;
   padding: 20px;
   background: #171717;
   color: white;
 }
-/* line 92, ../scss/_content.scss */
+/* line 93, ../scss/_content.scss */
 section#offer .offerBox h3 {
   margin-bottom: 15px;
 }
-/* line 95, ../scss/_content.scss */
+/* line 96, ../scss/_content.scss */
 section#offer .offerBox p {
   margin-bottom: 10px;
   text-align: justify;
 }
 
-/* line 103, ../scss/_content.scss */
+/* line 104, ../scss/_content.scss */
 section#about h2 {
-  font-size: 30px;
+  font-size: 1.8rem;
   background: #db1d00;
   color: white;
   text-align: center;
   padding: 20px;
 }
-/* line 110, ../scss/_content.scss */
+/* line 111, ../scss/_content.scss */
 section#about h3 {
   margin-bottom: 10px;
 }
-/* line 113, ../scss/_content.scss */
+/* line 114, ../scss/_content.scss */
 section#about .flexContainer {
   display: flex;
   align-items: flex-start;
 }
-/* line 116, ../scss/_content.scss */
+/* line 117, ../scss/_content.scss */
 section#about .flexContainer #aboutBoxes {
   flex: 3;
 }
-/* line 118, ../scss/_content.scss */
+/* line 119, ../scss/_content.scss */
 section#about .flexContainer #aboutBoxes .aboutBox {
   background: #d9d9d9;
   padding: 20px;
   margin: 20px 20px 20px 0;
   text-align: justify;
 }
-/* line 125, ../scss/_content.scss */
+/* line 126, ../scss/_content.scss */
 section#about .flexContainer #contactBox {
   flex: 1;
   background: #171717;
@@ -225,24 +228,24 @@ section#about .flexContainer #contactBox {
   margin: 20px 0;
   height: auto;
 }
-/* line 132, ../scss/_content.scss */
+/* line 133, ../scss/_content.scss */
 section#about .flexContainer #contactBox * {
   display: block;
   width: 100%;
 }
-/* line 136, ../scss/_content.scss */
+/* line 137, ../scss/_content.scss */
 section#about .flexContainer #contactBox input {
   height: 30px;
   border: 0;
 }
-/* line 140, ../scss/_content.scss */
+/* line 141, ../scss/_content.scss */
 section#about .flexContainer #contactBox textarea {
   height: 120px;
   border: 0;
   font-family: Arial;
-  font-size: 12px;
+  font-size: 0.8rem;
 }
-/* line 146, ../scss/_content.scss */
+/* line 147, ../scss/_content.scss */
 section#about .flexContainer #contactBox button {
   background: #db1d00;
   color: white;
@@ -250,12 +253,12 @@ section#about .flexContainer #contactBox button {
   margin-top: 15px;
   height: 30px;
 }
-/* line 153, ../scss/_content.scss */
+/* line 154, ../scss/_content.scss */
 section#about .flexContainer #contactBox button:hover {
   background: #ff2f0f;
   cursor: pointer;
 }
-/* line 157, ../scss/_content.scss */
+/* line 158, ../scss/_content.scss */
 section#about .flexContainer #contactBox label {
   margin-top: 10px;
   margin-bottom: 5px;
@@ -292,80 +295,85 @@ footer p {
   /* line 19, ../scss/_media_queries.scss */
   .container {
     width: 100%;
+    font-size: 0.9rem;
   }
 
-  /* line 23, ../scss/_media_queries.scss */
+  /* line 24, ../scss/_media_queries.scss */
   header .container {
     display: block;
   }
-  /* line 25, ../scss/_media_queries.scss */
+  /* line 26, ../scss/_media_queries.scss */
   header .container h1 {
     display: inline-block;
-    font-size: 25px;
+    font-size: 1.7rem;
   }
-  /* line 29, ../scss/_media_queries.scss */
+  /* line 30, ../scss/_media_queries.scss */
   header .container #menuIcon {
     display: inline-block;
     position: absolute;
     right: 20px;
     margin-right: 40px;
   }
-  /* line 35, ../scss/_media_queries.scss */
+  /* line 36, ../scss/_media_queries.scss */
   header .container nav {
     display: none;
     padding-top: 20px;
   }
-  /* line 38, ../scss/_media_queries.scss */
+  /* line 39, ../scss/_media_queries.scss */
   header .container nav li {
     display: block;
     padding: 0;
     margin: 5px 0;
   }
 
-  /* line 46, ../scss/_media_queries.scss */
+  /* line 47, ../scss/_media_queries.scss */
   section#picture {
     padding-top: 60px;
     background: url(../img/picture.jpg) no-repeat 0 -200px;
     min-height: 300px;
   }
-  /* line 50, ../scss/_media_queries.scss */
+  /* line 51, ../scss/_media_queries.scss */
   section#picture h2 {
     padding-top: 100px;
     padding-bottom: 10px;
-    font-size: 30px;
+    font-size: 1.7rem;
   }
 
-  /* line 57, ../scss/_media_queries.scss */
+  /* line 58, ../scss/_media_queries.scss */
   section#newsletter {
     box-sizing: border-box;
     padding: 20px;
   }
-  /* line 60, ../scss/_media_queries.scss */
+  /* line 61, ../scss/_media_queries.scss */
+  section#newsletter h2 {
+    font-size: 1.5rem;
+  }
+  /* line 64, ../scss/_media_queries.scss */
   section#newsletter .inputsContainer {
     display: block;
   }
-  /* line 62, ../scss/_media_queries.scss */
+  /* line 66, ../scss/_media_queries.scss */
   section#newsletter .inputsContainer input {
     width: 100%;
   }
-  /* line 65, ../scss/_media_queries.scss */
+  /* line 69, ../scss/_media_queries.scss */
   section#newsletter .inputsContainer button {
     margin: 15px 0 0 0;
     width: 100%;
   }
 
-  /* line 73, ../scss/_media_queries.scss */
+  /* line 77, ../scss/_media_queries.scss */
   section#offer #imageBoxes {
     display: block;
   }
-  /* line 75, ../scss/_media_queries.scss */
+  /* line 79, ../scss/_media_queries.scss */
   section#offer #imageBoxes .imageBox {
     box-sizing: border-box;
     margin: 20px 0;
     padding: 20px;
     width: 100%;
   }
-  /* line 80, ../scss/_media_queries.scss */
+  /* line 84, ../scss/_media_queries.scss */
   section#offer #imageBoxes .imageBox img {
     width: 25%;
   }

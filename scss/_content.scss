@@ -1,5 +1,6 @@
 body {
-	font-family: Arial;
+	font-family: $baseFontFace;
+	font-size: $baseFontSize;
 }
 
 .container {
@@ -16,10 +17,10 @@ section#picture {
 	h2 {
 		padding-top: 100px;
 		padding-bottom: 20px;
-		font-size: 50px;
+		font-size: 3.2rem;
 	}
 	h3 {
-		font-size: 20px;
+		font-size: 1.3rem;
 		color: $lightColorDarker;
 	}
 }
@@ -29,7 +30,7 @@ section#newsletter {
 	color: $lightColor;
 	padding: 15px 0;
 	h2 {
-		font-size: 30px;
+		font-size: 1.8rem;
 		text-align: center;
 		margin-bottom: 15px;
 	}
@@ -39,13 +40,13 @@ section#newsletter {
 			flex: 5;
 			border: 0;
 			height: 32px;
-			font-size: 16px;
+			font-size: 1rem;
 		}
 		button {
 			flex: 1;
 			border: 0;
 			height: 32px;
-			font-size: 16px;
+			font-size: 1rem;
 			background: $primaryColor;
 			color: $lightColor;
 			margin-left: 20px;
@@ -59,7 +60,7 @@ section#newsletter {
 
 section#offer {
 	h2 {
-		font-size: 30px;
+		font-size: 1.8rem;
 		background: $primaryColor;
 		color: $lightColor;
 		text-align: center;
@@ -79,7 +80,7 @@ section#offer {
 				margin-bottom: 15px;
 			}
 			h3 {
-				font-size: 16px;
+				font-size: 1rem;
 				margin-bottom: 10px;
 			}
 		}
@@ -101,7 +102,7 @@ section#offer {
 
 section#about {
 	h2 {
-		font-size: 30px;
+		font-size: 1.8rem;
 		background: $primaryColor;
 		color: $lightColor;
 		text-align: center;
@@ -141,7 +142,7 @@ section#about {
 				height: 120px;
 				border: 0;
 				font-family: Arial;
-				font-size: 12px;
+				font-size: 0.8rem;
 			}
 			button {
 				background: $primaryColor;	
