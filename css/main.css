@@ -29,46 +29,46 @@ header .container {
   display: flex;
   justify-content: space-between;
 }
-/* line 10, ../scss/_header.scss */
+/* line 11, ../scss/_header.scss */
 header .container h1 {
   color: white;
   font-size: 2.5rem;
 }
-/* line 13, ../scss/_header.scss */
+/* line 14, ../scss/_header.scss */
 header .container h1 span {
   color: #db1d00;
 }
-/* line 17, ../scss/_header.scss */
+/* line 19, ../scss/_header.scss */
 header .container #menuIcon {
   display: none;
   color: white;
   font-size: 1.7rem;
 }
-/* line 22, ../scss/_header.scss */
+/* line 23, ../scss/_header.scss */
 header .container #menuIcon:hover {
   color: #d9d9d9;
   cursor: pointer;
 }
-/* line 27, ../scss/_header.scss */
-header .container nav li {
+/* line 30, ../scss/_header.scss */
+header .container nav#menu li {
   font-size: 1.3rem;
   display: inline-block;
   padding: 10px;
 }
-/* line 31, ../scss/_header.scss */
-header .container nav li a {
+/* line 34, ../scss/_header.scss */
+header .container nav#menu li a {
   color: white;
 }
-/* line 34, ../scss/_header.scss */
-header .container nav li i {
-  color: #db1d00;
-}
-/* line 38, ../scss/_header.scss */
-header .container nav li a:hover {
+/* line 36, ../scss/_header.scss */
+header .container nav#menu li a:hover {
   color: #d9d9d9;
 }
 /* line 40, ../scss/_header.scss */
-header .container nav li a:hover i {
+header .container nav#menu li i {
+  color: #db1d00;
+}
+/* line 42, ../scss/_header.scss */
+header .container nav#menu li i:hover {
   color: #ff2f0f;
 }
 
@@ -137,7 +137,7 @@ section#newsletter .inputsContainer button {
   color: white;
   margin-left: 20px;
 }
-/* line 54, ../scss/_content.scss */
+/* line 53, ../scss/_content.scss */
 section#newsletter .inputsContainer button:hover {
   background: #ff2f0f;
   cursor: pointer;
@@ -234,18 +234,23 @@ section#about .flexContainer #contactBox * {
   width: 100%;
 }
 /* line 137, ../scss/_content.scss */
+section#about .flexContainer #contactBox label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+/* line 141, ../scss/_content.scss */
 section#about .flexContainer #contactBox input {
   height: 30px;
   border: 0;
 }
-/* line 141, ../scss/_content.scss */
+/* line 145, ../scss/_content.scss */
 section#about .flexContainer #contactBox textarea {
   height: 120px;
   border: 0;
   font-family: Arial;
   font-size: 0.8rem;
 }
-/* line 147, ../scss/_content.scss */
+/* line 151, ../scss/_content.scss */
 section#about .flexContainer #contactBox button {
   background: #db1d00;
   color: white;
@@ -253,15 +258,10 @@ section#about .flexContainer #contactBox button {
   margin-top: 15px;
   height: 30px;
 }
-/* line 154, ../scss/_content.scss */
+/* line 157, ../scss/_content.scss */
 section#about .flexContainer #contactBox button:hover {
   background: #ff2f0f;
   cursor: pointer;
-}
-/* line 158, ../scss/_content.scss */
-section#about .flexContainer #contactBox label {
-  margin-top: 10px;
-  margin-bottom: 5px;
 }
 
 /* line 1, ../scss/_footer.scss */

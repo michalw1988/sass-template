@@ -7,6 +7,7 @@ header {
 	.container{ 
 		display: flex;
 		justify-content: space-between;
+		
 		h1 {
 			color: white;
 			font-size: 2.5rem;
@@ -14,30 +15,31 @@ header {
 				color: $primaryColor;
 			}
 		}
+
 		#menuIcon {
 			display: none;
 			color: $lightColor;
 			font-size: 1.7rem;
+			&:hover {
+				color: $lightColorDarker;
+				cursor: pointer;
+			}
 		}
-		#menuIcon:hover {
-			color: $lightColorDarker;
-			cursor: pointer;
-		}
-		nav {
+
+		nav#menu {
 			li {
 				font-size: 1.3rem;
 				display: inline-block;
 				padding: 10px;
 				a {
 					color: $lightColor;
+					&:hover {
+						color: $lightColorDarker;
+					}
 				}
 				i {
 					color: $primaryColor;
-				}
-
-				a:hover {
-					color: $lightColorDarker;
-					i {
+					&:hover {
 						color: $primaryColorLighter;
 					}
 				}

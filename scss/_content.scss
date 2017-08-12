@@ -50,10 +50,10 @@ section#newsletter {
 			background: $primaryColor;
 			color: $lightColor;
 			margin-left: 20px;
-		}
-		button:hover {
-			background: $primaryColorLighter;
-			cursor: pointer;
+			&:hover {
+				background: $primaryColorLighter;
+				cursor: pointer;
+			}
 		}
 	}
 }
@@ -134,6 +134,10 @@ section#about {
 				display: block;
 				width: 100%;
 			}
+			label {
+				margin-top: 10px;
+				margin-bottom: 5px;
+			}
 			input {
 				height: 30px;
 				border: 0;
@@ -150,14 +154,10 @@ section#about {
 				border: 0;
 				margin-top: 15px;
 				height: 30px;
-			}
-			button:hover {
-				background: $primaryColorLighter;
-				cursor: pointer;
-			}
-			label {
-				margin-top: 10px;
-				margin-bottom: 5px;
+				&:hover {
+					background: $primaryColorLighter;
+					cursor: pointer;
+				}
 			}
 		}
 	}
