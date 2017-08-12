@@ -1,0 +1,372 @@
+/* line 1, ../scss/_reset.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 6, ../scss/_reset.scss */
+ul {
+  list-style: none;
+}
+
+/* line 10, ../scss/_reset.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 1, ../scss/_header.scss */
+header {
+  position: fixed;
+  width: 100%;
+  background: #171717;
+  padding: 20px;
+  border-bottom: 5px solid #db1d00;
+}
+/* line 7, ../scss/_header.scss */
+header .container {
+  display: flex;
+  justify-content: space-between;
+}
+/* line 10, ../scss/_header.scss */
+header .container h1 {
+  color: white;
+  font-size: 36px;
+}
+/* line 13, ../scss/_header.scss */
+header .container h1 span {
+  color: #db1d00;
+}
+/* line 17, ../scss/_header.scss */
+header .container #menuIcon {
+  display: none;
+  color: white;
+  font-size: 25px;
+}
+/* line 22, ../scss/_header.scss */
+header .container #menuIcon:hover {
+  color: #d9d9d9;
+  cursor: pointer;
+}
+/* line 27, ../scss/_header.scss */
+header .container nav li {
+  font-size: 20px;
+  display: inline-block;
+  padding: 10px;
+}
+/* line 31, ../scss/_header.scss */
+header .container nav li a {
+  color: white;
+}
+/* line 34, ../scss/_header.scss */
+header .container nav li i {
+  color: #db1d00;
+}
+/* line 38, ../scss/_header.scss */
+header .container nav li a:hover {
+  color: #d9d9d9;
+}
+/* line 40, ../scss/_header.scss */
+header .container nav li a:hover i {
+  color: #ff2f0f;
+}
+
+/* line 1, ../scss/_content.scss */
+body {
+  font-family: Arial;
+}
+
+/* line 5, ../scss/_content.scss */
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+/* line 10, ../scss/_content.scss */
+section#picture {
+  padding-top: 100px;
+  background: url(../img/picture.jpg) no-repeat 0 -200px;
+  min-height: 400px;
+  text-align: center;
+  color: white;
+}
+/* line 16, ../scss/_content.scss */
+section#picture h2 {
+  padding-top: 100px;
+  padding-bottom: 20px;
+  font-size: 50px;
+}
+/* line 21, ../scss/_content.scss */
+section#picture h3 {
+  font-size: 20px;
+  color: #d9d9d9;
+}
+
+/* line 27, ../scss/_content.scss */
+section#newsletter {
+  background: #171717;
+  color: white;
+  padding: 15px 0;
+}
+/* line 31, ../scss/_content.scss */
+section#newsletter h2 {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+/* line 36, ../scss/_content.scss */
+section#newsletter .inputsContainer {
+  display: flex;
+}
+/* line 38, ../scss/_content.scss */
+section#newsletter .inputsContainer input {
+  flex: 5;
+  border: 0;
+  height: 32px;
+  font-size: 16px;
+}
+/* line 44, ../scss/_content.scss */
+section#newsletter .inputsContainer button {
+  flex: 1;
+  border: 0;
+  height: 32px;
+  font-size: 16px;
+  background: #db1d00;
+  color: white;
+  margin-left: 20px;
+}
+/* line 53, ../scss/_content.scss */
+section#newsletter .inputsContainer button:hover {
+  background: #ff2f0f;
+  cursor: pointer;
+}
+
+/* line 61, ../scss/_content.scss */
+section#offer h2 {
+  font-size: 30px;
+  background: #db1d00;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+/* line 69, ../scss/_content.scss */
+section#offer #imageBoxes {
+  display: flex;
+}
+/* line 71, ../scss/_content.scss */
+section#offer #imageBoxes .imageBox {
+  flex: 1;
+  background: #d9d9d9;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+}
+/* line 77, ../scss/_content.scss */
+section#offer #imageBoxes .imageBox img {
+  width: 40%;
+  margin-bottom: 15px;
+}
+/* line 81, ../scss/_content.scss */
+section#offer #imageBoxes .imageBox h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+/* line 87, ../scss/_content.scss */
+section#offer .offerBox {
+  margin: 20px 0;
+  padding: 20px;
+  background: #171717;
+  color: white;
+}
+/* line 92, ../scss/_content.scss */
+section#offer .offerBox h3 {
+  margin-bottom: 15px;
+}
+/* line 95, ../scss/_content.scss */
+section#offer .offerBox p {
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+/* line 103, ../scss/_content.scss */
+section#about h2 {
+  font-size: 30px;
+  background: #db1d00;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+/* line 110, ../scss/_content.scss */
+section#about h3 {
+  margin-bottom: 10px;
+}
+/* line 113, ../scss/_content.scss */
+section#about .flexContainer {
+  display: flex;
+  align-items: flex-start;
+}
+/* line 116, ../scss/_content.scss */
+section#about .flexContainer #aboutBoxes {
+  flex: 3;
+}
+/* line 118, ../scss/_content.scss */
+section#about .flexContainer #aboutBoxes .aboutBox {
+  background: #d9d9d9;
+  padding: 20px;
+  margin: 20px 20px 20px 0;
+  text-align: justify;
+}
+/* line 125, ../scss/_content.scss */
+section#about .flexContainer #contactBox {
+  flex: 1;
+  background: #171717;
+  color: white;
+  padding: 20px;
+  margin: 20px 0;
+  height: auto;
+}
+/* line 132, ../scss/_content.scss */
+section#about .flexContainer #contactBox * {
+  display: block;
+  width: 100%;
+}
+/* line 136, ../scss/_content.scss */
+section#about .flexContainer #contactBox input {
+  height: 30px;
+  border: 0;
+}
+/* line 140, ../scss/_content.scss */
+section#about .flexContainer #contactBox textarea {
+  height: 120px;
+  border: 0;
+  font-family: Arial;
+  font-size: 12px;
+}
+/* line 146, ../scss/_content.scss */
+section#about .flexContainer #contactBox button {
+  background: #db1d00;
+  color: white;
+  border: 0;
+  margin-top: 15px;
+  height: 30px;
+}
+/* line 153, ../scss/_content.scss */
+section#about .flexContainer #contactBox button:hover {
+  background: #ff2f0f;
+  cursor: pointer;
+}
+/* line 157, ../scss/_content.scss */
+section#about .flexContainer #contactBox label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+/* line 1, ../scss/_footer.scss */
+footer {
+  padding: 20px;
+  background: #db1d00;
+}
+/* line 4, ../scss/_footer.scss */
+footer p {
+  color: white;
+  text-align: center;
+}
+
+/* medium screens */
+@media (max-width: 968px) {
+  /* line 4, ../scss/_media_queries.scss */
+  section#about .flexContainer {
+    display: block;
+  }
+  /* line 6, ../scss/_media_queries.scss */
+  section#about .flexContainer #aboutBoxes {
+    width: 100%;
+  }
+  /* line 8, ../scss/_media_queries.scss */
+  section#about .flexContainer #aboutBoxes .aboutBox {
+    margin: 20px 0;
+  }
+}
+/* small screens */
+@media (max-width: 768px) {
+  /* line 19, ../scss/_media_queries.scss */
+  .container {
+    width: 100%;
+  }
+
+  /* line 23, ../scss/_media_queries.scss */
+  header .container {
+    display: block;
+  }
+  /* line 25, ../scss/_media_queries.scss */
+  header .container h1 {
+    display: inline-block;
+    font-size: 25px;
+  }
+  /* line 29, ../scss/_media_queries.scss */
+  header .container #menuIcon {
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    margin-right: 40px;
+  }
+  /* line 35, ../scss/_media_queries.scss */
+  header .container nav {
+    display: none;
+    padding-top: 20px;
+  }
+  /* line 38, ../scss/_media_queries.scss */
+  header .container nav li {
+    display: block;
+    padding: 0;
+    margin: 5px 0;
+  }
+
+  /* line 46, ../scss/_media_queries.scss */
+  section#picture {
+    padding-top: 60px;
+    background: url(../img/picture.jpg) no-repeat 0 -200px;
+    min-height: 300px;
+  }
+  /* line 50, ../scss/_media_queries.scss */
+  section#picture h2 {
+    padding-top: 100px;
+    padding-bottom: 10px;
+    font-size: 30px;
+  }
+
+  /* line 57, ../scss/_media_queries.scss */
+  section#newsletter {
+    box-sizing: border-box;
+    padding: 20px;
+  }
+  /* line 60, ../scss/_media_queries.scss */
+  section#newsletter .inputsContainer {
+    display: block;
+  }
+  /* line 62, ../scss/_media_queries.scss */
+  section#newsletter .inputsContainer input {
+    width: 100%;
+  }
+  /* line 65, ../scss/_media_queries.scss */
+  section#newsletter .inputsContainer button {
+    margin: 15px 0 0 0;
+    width: 100%;
+  }
+
+  /* line 73, ../scss/_media_queries.scss */
+  section#offer #imageBoxes {
+    display: block;
+  }
+  /* line 75, ../scss/_media_queries.scss */
+  section#offer #imageBoxes .imageBox {
+    box-sizing: border-box;
+    margin: 20px 0;
+    padding: 20px;
+    width: 100%;
+  }
+  /* line 80, ../scss/_media_queries.scss */
+  section#offer #imageBoxes .imageBox img {
+    width: 25%;
+  }
+}

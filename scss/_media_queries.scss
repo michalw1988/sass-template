@@ -1,0 +1,86 @@
+/* medium screens */
+@media(max-width: 968px) {
+	section#about {
+		.flexContainer {
+			display: block;
+			#aboutBoxes {
+				width: 100%;
+				.aboutBox {	
+					margin: 20px 0;
+				}
+			}
+		}
+	}
+}
+
+
+/* small screens */
+@media(max-width: 768px) {
+	.container {
+		width: 100%;
+	}
+
+	header .container {
+		display: block;
+		h1 {
+			display: inline-block;
+			font-size: 25px;
+		}
+		#menuIcon {
+			display: inline-block;
+			position: absolute;
+			right: 20px;
+			margin-right: 40px;
+		}
+		nav {
+			display: none;
+			padding-top: 20px;
+			li {
+				display: block;
+				padding: 0;
+				margin: 5px 0;
+			}
+		}
+	}
+
+	section#picture {
+		padding-top: 60px;
+		background: url(../img/picture.jpg) no-repeat 0-200px;
+		min-height: 300px;
+		h2 {
+			padding-top: 100px;
+			padding-bottom: 10px;
+			font-size: 30px;
+		}
+	}
+
+	section#newsletter {
+		box-sizing: border-box;
+		padding: 20px;
+		.inputsContainer {
+			display: block;
+			input {
+				width: 100%;
+			}
+			button {
+				margin: 15px 0 0 0;
+				width: 100%;
+			}
+		}
+	}
+
+	section#offer {
+		#imageBoxes {	
+			display: block;
+			.imageBox {
+				box-sizing: border-box;
+				margin: 20px 0;
+				padding: 20px;
+				width: 100%;
+				img {
+					width: 25%;
+				}
+			}
+		}
+	}
+}

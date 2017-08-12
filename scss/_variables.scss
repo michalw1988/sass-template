@@ -1,0 +1,6 @@
+$primaryColor: #DB1D00;
+$darkColor: #171717;
+$lightColor: #fff;
+
+$primaryColorLighter: lighten($primaryColor, 10%);
+$lightColorDarker: darken($lightColor, 15%);

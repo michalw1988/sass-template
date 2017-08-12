@@ -1,0 +1,47 @@
+header {
+	position: fixed;
+	width: 100%;
+	background: $darkColor;
+	padding: 20px;
+	border-bottom: 5px solid $primaryColor;
+	.container{ 
+		display: flex;
+		justify-content: space-between;
+		h1 {
+			color: white;
+			font-size: 36px;
+			span {
+				color: $primaryColor;
+			}
+		}
+		#menuIcon {
+			display: none;
+			color: $lightColor;
+			font-size: 25px;
+		}
+		#menuIcon:hover {
+			color: $lightColorDarker;
+			cursor: pointer;
+		}
+		nav {
+			li {
+				font-size: 20px;
+				display: inline-block;
+				padding: 10px;
+				a {
+					color: $lightColor;
+				}
+				i {
+					color: $primaryColor;
+				}
+
+				a:hover {
+					color: $lightColorDarker;
+					i {
+						color: $primaryColorLighter;
+					}
+				}
+			}
+		}
+	}
+}
